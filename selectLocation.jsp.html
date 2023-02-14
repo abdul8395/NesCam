@@ -1,0 +1,102 @@
+﻿
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Civil Forensics</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Browse for cameras by selecting a location.">
+        <link rel="shortcut icon" href="favicon/favicon.ico">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+        <link rel="manifest" href="site.webmanifest">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/transitive-1.css?tcaGen=2">
+        <link rel="stylesheet" href="css/magnific-popup.css?tcaGen=2">
+        <link rel="stylesheet" href="css/common.css?tcaGen=2">
+        <link rel="stylesheet" href="css/selectLocation.css?tcaGen=2">
+
+        <!-- JavaScript -->
+        <script src="js/jquery-3.5.1.min.js?tcaGen=2"></script>
+        <script src="jquery-ui/jquery-ui.min.js?tcaGen=2"></script>
+        <script src="js/skel.min.js?tcaGen=2"></script>
+        <script src="js/util.js?tcaGen=2"></script>
+        <script src="js/transitive.js?tcaGen=2"></script>
+        <script src="js/jquery.magnific-popup.min.js?tcaGen=2"></script>
+        <script src="js/common.js?tcaGen=2"></script>
+        <script src="js/js.cookie.js?tcaGen=2"></script>
+        <script src="js/cart.js?tcaGen=2"></script>
+        <script src="js/selectLocation.js?tcaGen=2"></script>
+
+        <!-- Google Analytics -->
+        <script async="" src="gtag/js.js?id=UA-196534283-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+            gtag('config', 'UA-196534283-1');
+        </script>
+    </head>
+    <body>
+
+        <!-- Header -->
+        <header id="header" class="revealed">
+            <div class="logo"><a href="index.htm"><img class="logoImage" src="images/logo.png" alt="Website Logo"></a></div>
+            <span class="shoppingCartWrapper">
+                 <a href="index.htm">Home</a>
+                <a href="claim.html">CLAIM REVIEW</a>
+                <a href="liability.html">LIABILITY FORENSICS</a>
+                <a href="cctv.html">CCTV FOOTAGE</a>
+                <a href="attorny.html">ATTORNEY REFERRAL</a>
+                <a href="support.html">Support & FAQ</a>
+                <a href="contact_t.html">Contact</a>
+                <img id="shoppingCart" src="images/cartDefault.png" alt="Shopping Cart" onclick="cartClicked()">
+            </span>
+        </header>
+
+        <!-- One -->
+        <section id="one" class="wrapper style2" style="padding:3rem 0 0 0; background-color: white">
+            <div class="inner">
+                <div class="box" style="margin:auto">
+                    <div class="content" style="padding: 1em">
+                        <header class="align-center">
+                            <h2 id="selectVideoTitle">Select Location</h2>
+                        </header>
+                        <p id="instructions">
+                            Select the location within Alabama where you would like to browse for cameras.
+                        </p>
+                        <div id="buttonTable">
+                            <a href='browseCameras.html?rn=Alabama&li=AL_BI' class='button special locationButton'>Birmingham</a><a href='browseCameras-1.html?rn=Alabama&li=AL_TU' class='button special locationButton'>Tuscaloosa</a><a href='browseCameras-2.html?rn=Alabama&li=AL_MO' class='button special locationButton'>Mobile</a><a href='browseCameras-3.html?rn=Alabama&li=AL_MONT' class='button special locationButton'>Montgomery</a><a href='browseCameras-4.html?rn=Alabama&li=AL_DO' class='button special locationButton'>Dothan</a><a href='browseCameras-5.html?rn=Alabama&li=AL_CT' class='button special locationButton'>Clanton/Thorsby</a><a href='browseCameras-6.html?rn=Alabama&li=AL_FL' class='button special locationButton'>Florence</a><a href='browseCameras-7.html?rn=Alabama&li=AL_DE' class='button special locationButton'>Decatur</a><a href='browseCameras-8.html?rn=Alabama&li=AL_TR' class='button special locationButton'>Troy</a><a href='browseCameras-9.html?rn=Alabama&li=AL_JA' class='button special locationButton'>Jasper</a><a href='browseCameras-10.html?rn=Alabama&li=AL_HA' class='button special locationButton'>Haleyville</a><a href='browseCameras-11.html?rn=Alabama&li=AL_VA' class='button special locationButton'>Vance</a><a href='browseCameras-12.html?rn=Alabama&li=AL_GR' class='button special locationButton'>Greensboro</a><a href='browseCameras-13.html?rn=Alabama&li=AL_SU' class='button special locationButton'>Sumiton</a><a href='browseCameras-14.html?rn=Alabama&li=AL_PL' class='button special locationButton'>Pine Level</a><a href='browseCameras-15.html?rn=Alabama&li=AL_AT' class='button special locationButton'>Athens</a><a href='browseCameras-16.html?rn=Alabama&li=AL_GO' class='button special locationButton'>Gordo</a><a href='browseCameras-17.html?rn=Alabama&li=AL_WO' class='button special locationButton'>Woodstock</a><a href='browseCameras-18.html?rn=Alabama&li=AL_LI' class='button special locationButton'>Lincoln</a><a href='browseCameras-19.html?rn=Alabama&li=AL_MOUND' class='button special locationButton'>Moundville</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Instructions dialog -->
+        <div id="instructionsDialog" class="instructionsDialog mfp-hide">
+            Welcome to the location selection page.
+            Cameras are grouped geographically into locations.
+            Select the location where you would like to look for video footage.
+            <div class="dialogButtonWrapper">
+                <button class="button special dialogButton" onclick="closeDialog()">OK</button>
+            </div>
+        </div>
+
+        <br><br>
+        <!-- Footer -->
+        <footer id="pageFooter">
+            &copy; Civil Forensics
+        </footer>
+    </body>
+</html>

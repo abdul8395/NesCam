@@ -1,0 +1,156 @@
+html {
+    background-color: white;
+}
+
+p {
+    text-align: center;
+}
+
+table th {
+    padding: 0 0.75rem 0.3rem 0.3rem;
+}
+
+table td {
+    padding: 0.25rem 0.25rem;
+}
+
+#purchaseIdInputWrapper {
+    display: none;
+    margin: auto;
+}
+
+#purchaseId {
+    display: inline;
+    max-width: 200px;
+}
+
+#checkStatusButton {
+    font-size: 1em;
+    margin: 1em 0 0 0;
+    width: 200px;
+}
+
+#invalidPurchaseId {
+    display: none;
+    text-align: center;
+    color: red;
+    margin-top: -1em;
+}
+
+.invalid {
+    background-color: #ffc9c9 !important;
+}
+
+#fulfillmentFailed {
+    display: none;
+    color: red;
+    font-size: 1.25em;
+}
+
+#orderStatusWrapper {
+    display: none;
+    margin: auto;
+    max-width: 700px;
+}
+
+#purchaseInfo {
+    text-align: left;
+}
+
+#orderStatusTable {
+    margin: auto;
+}
+
+.locationData {
+    font-size: .8em;
+    color: #999999;
+    margin-left: 1em;
+}
+
+#processingMessage {
+    display: none;
+    margin-top: 2em;
+    text-align: left;
+}
+
+.processingImage {
+    width:50%;
+    min-width: 40px;
+}
+
+#fulfilledMessage {
+    display: none;
+    margin-top: 2em;
+    text-align: left;
+}
+
+#purgedMessage {
+    display: none;
+    margin-top: 2em;
+}
+
+#autoCheckMessage {
+    display: none;
+    text-decoration: underline;
+}
+
+.browseLinkWrapper {
+    display: none;
+}
+
+.checkAnotherOrBrowseLinkWrapper {
+    display: none;
+    margin-top: 2em;
+    margin-top: 1em;
+    text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+    #fulfillmentFailed {
+        font-size: .9rem;
+    }
+
+    #purchaseId {
+        font-size: .9rem;
+    }
+
+    table th {
+        font-size: .8em;
+        padding: 0 0.75rem 0.3rem 0.3rem;
+    }
+
+    table td {
+        font-size: .8em;
+    }
+    
+    p {
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    table th {
+        font-size: .7em;
+        padding: 0 0.75rem 0.2rem 0.3rem;
+    }
+
+    table td {
+        font-size: .6em;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #purchaseId {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    #checkStatusButton {
+        width: 100%;
+        margin: 1em 0 0 0;
+    }
+
+    .checkAnotherOrBrowseLinkWrapper {
+        font-size: .9em;
+    }
+}

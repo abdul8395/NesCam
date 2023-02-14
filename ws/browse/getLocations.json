@@ -1,0 +1,34 @@
+[
+    {
+        "eastLongitude": -114.063743,
+        "id": "NV_OTHER",
+        "latitude": 36.834135,
+        "longitude": -115.513252,
+        "name": "Other",
+        "northLatitude": 41.988334,
+        "pricePerHour": 250,
+        "priority": 4,
+        "regionName": "Nevada",
+        "southLatitude": 35.172321,
+        "taxRate": 0,
+        "timeZone": "US/Pacific",
+        "westLongitude": -119.606468,
+        "zoom": 6
+    },
+    {
+        "eastLongitude": -119.622169,
+        "id": "NV_RN",
+        "latitude": 39.528218,
+        "longitude": -119.803603,
+        "name": "Reno",
+        "northLatitude": 39.667869,
+        "pricePerHour": 250,
+        "priority": 2,
+        "regionName": "Nevada",
+        "southLatitude": 39.329833,
+        "taxRate": 0,
+        "timeZone": "US/Pacific",
+        "westLongitude": -119.999198,
+        "zoom": 10
+    }
+ ]

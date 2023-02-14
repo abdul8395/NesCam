@@ -1,0 +1,66 @@
+html {
+    background-color: white;
+}
+
+p {
+    text-align: center;
+}
+
+#email {
+    display: inline;
+    max-width: 300px;
+}
+
+#submitButton {
+    font-size: 1em;
+    margin: 1em 0 0 0;
+    width: 300px;
+}
+
+#invalidEmailMessage {
+    display: none;
+    margin: 1em 0 -1em 0;
+    text-align: center;
+    color: red;
+}
+
+.invalid {
+    background-color: #ffc9c9 !important;
+}
+
+#emailVerify {
+    font-weight: bold;
+}
+
+#postSubmitMessage {
+    display: none;
+}
+
+@media screen and (max-width: 900px) {
+    #instructions {
+        text-align: left;
+    }
+    
+    #postSubmitMessage {
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #email {
+        font-size: .9rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #email {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    #submitButton {
+        max-width: 100%;
+        width: 100%;
+        margin: 1em 0 0 0;
+    }
+}

@@ -1,0 +1,150 @@
+html {
+    background-color: white;
+}
+
+.backToBrowseCameras {
+    color: #f15a24;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#selectDateTitle {
+    margin: 0;
+}
+
+#calendar {
+    width: 100%;
+    max-width: 600px;
+    margin: 1em auto;
+}
+
+thead tr {
+    display: block;
+    height: 50px !important;
+}
+
+tr {
+    display: block;
+}
+
+th {
+    font-size: 1.25em !important;
+    height: 100% !important;
+    line-height: 50px !important;
+}
+
+td {
+    font-size: 1.25em !important;
+    height: 100% !important;
+    line-height: 50px !important;
+    font-weight: bolder !important;
+    cursor: pointer !important;
+}
+
+.available {
+    background-color: white;
+}
+
+.notAvailable {
+    background-color: #808080;
+}
+
+.selectedDate {
+    background-color: #81bef7 !important;
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+}
+
+#cameraInfo {
+    margin: 0;
+}
+
+#cameraName {
+    margin-top: .5em;
+}
+
+#numVideos {
+    font-size: .8em;
+}
+
+#nextButton {
+    display: none;
+    margin: 1em auto 0 auto;
+    max-width: 600px;
+    font-size: 1.25em;
+    line-height: 1.25em;
+    animation: pulse 3s infinite;
+}
+
+#noVideoAvailable {
+    display: none;
+    margin: 1em 0 0 0;
+    text-align: center;
+}
+
+.browseLinkWrapper {
+    display: none;
+}
+
+.instructionsDialog {
+    text-align: left;
+    font-size: 1rem;
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    background: white;
+    padding: 20px 30px;
+    max-width: 500px;
+    margin: 40px auto;
+    position: relative;
+}
+
+.instructionsImage {
+    width: 64px;
+    vertical-align: middle;
+    padding-bottom: 5px;
+}
+
+.dialogButtonWrapper {
+    text-align: right;
+}
+
+@media screen and (max-width: 800px) {   
+    td {
+        font-size: 1em !important;
+        line-height: 40px !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    th {
+        font-size: 1em !important;
+    }
+
+    td {
+        font-size: .75em !important;
+        line-height: 30px !important;
+    }
+
+    #cameraInfo {
+        font-size: .9em;
+    }
+
+    #nextButton {
+        font-size: .9em;
+    }
+    
+    #noVideoAvailable {
+        font-size: .9em;
+    }
+}

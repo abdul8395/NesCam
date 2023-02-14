@@ -1,0 +1,130 @@
+html {
+    background-color: white;
+}
+
+p {
+    text-align: center;
+}
+
+label {
+    margin-top: 1em;
+}
+
+#formWrapper {
+    margin:auto;
+    max-width: 700px;
+}
+
+#instructions {
+    text-align: left;
+}
+
+#captchaImage {
+    width: 155px;
+    height: 50px;
+    float: left;
+    margin-right: .5em;
+    margin-top: -1px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+#captcha {
+    width: calc(100% - 155px - .5em);
+}
+
+#invalidMessage {
+    display: none;
+    margin: 0 0 1em 0;
+    font-size: 1em;
+    text-align: center;
+    color: red;
+}
+
+#submitButton {
+    margin-top: 1em !important;
+}
+
+.invalid {
+    background-color: #ffc9c9 !important;
+}
+
+#successMessage {
+    display: none;
+    text-align: center;
+}
+
+@media screen and (max-width: 1680px) {
+    #captchaImage {
+        margin-top: -3px;
+    }
+}
+
+@media screen and (max-width: 1120px) {
+    p {
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #invalidMessage {
+        font-size: .9em;
+    }
+
+    #submitButton {
+        max-width: 100%;
+        width: 100%;
+        margin: 1em 0 0 0;
+    }
+
+    #email {
+        font-size: .9em;
+    }
+
+    #reason {
+        font-size: .9em;
+    }
+
+    textarea {
+        font-size: .9em;
+    }
+
+    #captchaImage {
+        float: none;
+        width: 140px;
+        height: 45px; 
+    }
+
+    #captcha {
+        width: 100%;
+        margin-top: .5em;
+        font-size: .9em;
+    }
+}
+
+
+.block_container {
+    display: flex;
+    justify-content: center;
+
+}
+.custominputs{
+    width: 140px;
+    display:inline;
+    
+}
+
+input[type="file"] {
+    display: none;
+}
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    background-color:#d95a11;
+    border-radius: 5px;
+    color: white;
+}

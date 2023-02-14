@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>CF Shopping Cart</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="The contents of your shopping cart. Proceed to checkout when you are ready.">
+        <link rel="shortcut icon" href="/favicon/favicon.ico">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+        <link rel="manifest" href="/site.webmanifest">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/transitive.css?tcaGen=2"/>
+        <link rel="stylesheet" href="css/magnific-popup.css?tcaGen=2"/>
+        <link rel="stylesheet" href="css/common.css?tcaGen=2"/>
+        <link rel="stylesheet" href="css/shoppingCart.css?tcaGen=2"/>
+
+        <!-- JavaScript -->
+        <script src="js/jquery-3.5.1.min.js?tcaGen=2"></script>
+        <script src="jquery-ui/jquery-ui.min.js?tcaGen=2"></script>
+        <script src="js/skel.min.js?tcaGen=2"></script>
+        <script src="js/util.js?tcaGen=2"></script>
+        <script src="js/transitive.js?tcaGen=2"></script>
+        <script src="js/jquery.magnific-popup.min.js?tcaGen=2"></script>
+        <script src="js/common.js?tcaGen=2"></script>
+        <script src="js/js.cookie.js?tcaGen=2"></script>
+        <script src="js/cart.js?tcaGen=2"></script>
+        <script src="js/shoppingCart.js?tcaGen=2"></script>
+
+        <!-- Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-196534283-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+            gtag('config', 'UA-196534283-1');
+        </script>
+    </head>
+    <body class="is-loading">
+
+        <!-- Header -->
+        <header id="header" class="revealed">
+            <div class="logo"><a href="/"><img class="logoImage" src="images/logo.png" alt="Website Logo"></a></div>
+            <span class="shoppingCartWrapper">
+                 <a href="index.htm">Home</a>
+                <a href="claim.html">CLAIM REVIEW</a>
+                <a href="liability.html">LIABILITY FORENSICS</a>
+                <a href="cctv.html">CCTV FOOTAGE</a>
+                <a href="attorny.html">ATTORNEY REFERRAL</a>
+                <a href="support.html">Support & FAQ</a>
+                <a href="contact_t.html">Contact</a>
+                <img id="shoppingCart" src="images/cartDefault.png" alt="Shopping Cart" class="ignoreClick" style="cursor: default" onclick="cartClicked()">
+            </span>
+        </header>
+
+        <!-- One -->
+        <section id="one" class="wrapper style2" style="padding:3rem 0 0 0; background-color: white">
+            <div class="inner">
+                <div class="box" style="margin:auto">
+                    <div class="content" style="padding: 1em">
+                        <header class="align-center">
+                            <h2>Shopping Cart</h2>
+                        </header>
+                        <div id="emptyCartWrapper">
+                            <br/>
+                            <img id="emptyCartImage" src="images/emptyShoppingCart.png" alt="Empty Shopping Cart"/>
+                            <br/><br/>
+                            <h3>Your Cart is Empty</h3>
+                            <!-- <p><a href="selectState.jsp" style="text-decoration: underline">Browse Video Archive</a></p> -->
+                        </div>
+                        <div id="orderWrapper">
+                            <table id="orderTable">
+                                <thead>
+                                    <tr>
+                                        <th>Camera</th>
+                                        <th>Time Frame</th>
+                                        <th>Status</th>
+                                        <th>Price</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody id="tableBody">
+                                </tbody>
+                                <tfoot id="tableFooter"></tfoot>
+                            </table>
+                            <button id="checkoutButton" class="button special big fit" onclick="checkoutButtonClicked()">Secure Checkout</button>
+                            <!-- <div class="browseLinkWrapper"><span class="backToBrowseCameras" onclick="backToBrowseCameras()">Browse archive for more video</span></div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Instructions dialog -->
+        <div id="instructionsDialog" class="instructionsDialog mfp-hide">
+            Welcome to your shopping cart.
+            This page displays the videos you added to your cart.
+            If you need to remove a video, press the delete button next to it.
+            Press the 'Secure Checkout' button to checkout.
+            <div class="dialogButtonWrapper">
+                <button class="button special dialogButton" onclick="closeDialog()">OK</button>
+            </div>
+        </div>
+
+        <!-- Confirm clear cart dialog -->
+        <div id="confirmClearCartDialog" class="dialog mfp-hide">
+            <p>
+                Are you sure you want to remove all videos from your cart?
+            </p>
+            <div class="dialogButtonWrapper">
+                <button id="yesButton" class="button special dialogButton" onclick="clearCart()">Yes</button>
+                <button class="button special dialogButton" onclick="closeDialog()">No</button>
+            </div>
+        </div>
+
+        <!-- Unavailable video dialog -->
+        <div id="unavailableDialog" class="dialog mfp-hide">
+            <p>
+                Video in your cart is no longer available. This happens when old video is purged to make room for new video.
+                You will need to remove unavailable video before you can checkout.
+            </p>
+            <div class="dialogButtonWrapper">
+                <button id="okButton" class="button special dialogButton" onclick="closeDialog()">OK</button>
+            </div>
+        </div>
+
+        <br/><br/><br/>
+        <!-- Footer -->
+        <footer id="pageFooter">
+            &copy; Civil Forensics
+        </footer>
+    </body>
+</html>

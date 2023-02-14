@@ -1,0 +1,139 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>CF Order Status</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Check the status of your order and download your videos.">
+        <link rel="shortcut icon" href="favicon/favicon.ico">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+        <link rel="manifest" href="site.webmanifest">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/transitive-1.css?tcaGen=2">
+        <link rel="stylesheet" href="css/common.css?tcaGen=2">
+        <link rel="stylesheet" href="css/orderStatus.css?tcaGen=2">
+
+        <!-- JavaScript -->
+        <script src="js/jquery-3.5.1.min.js?tcaGen=2"></script>
+        <script src="js/skel.min.js?tcaGen=2"></script>
+        <script src="js/util.js?tcaGen=2"></script>
+        <script src="js/transitive.js?tcaGen=2"></script>
+        <script src="js/common.js?tcaGen=2"></script>
+        <script src="js/js.cookie.js?tcaGen=2"></script>
+        <script src="js/cart.js?tcaGen=2"></script>
+        <script src="js/orderStatus.js?tcaGen=2"></script>
+        
+        <!-- Google Analytics -->
+        <script async="" src="gtag/js.js?id=UA-196534283-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+            gtag('config', 'UA-196534283-1');
+        </script>
+    </head>
+    <body class="is-loading">
+
+        <!-- Header -->
+        <header id="header" class="revealed">
+            <div class="logo"><a href="index.htm"><img class="logoImage" src="images/logo.png" alt="Website Logo"></a></div>
+            <span class="shoppingCartWrapper">
+                 <a href="index.htm">Home</a>
+                <a href="claim.html">CLAIM REVIEW</a>
+                <a href="liability.html">LIABILITY FORENSICS</a>
+                <a href="cctv.html">CCTV FOOTAGE</a>
+                <a href="attorny.html">ATTORNEY REFERRAL</a>
+                <a href="support.html">Support & FAQ</a>
+                <a href="contact_t.html">Contact</a>
+                <img id="shoppingCart" src="images/cartDefault.png" alt="Shopping Cart" onclick="cartClicked()">
+            </span>
+        </header>
+
+        <!-- One -->
+        <section id="one" class="wrapper style2" style="padding:3rem 0 0 0; background-color: white">
+            <div class="inner">
+                <div class="box" style="margin:auto">
+                    <div class="content" style="padding: 1em">
+                        <header class="align-center">
+                            <h2 id="orderStatusHeader">Order Status</h2>
+                        </header>
+                        <div id="purchaseIdInputWrapper">
+                            <p style="margin-top: 2em; text-align: left">
+                                Enter your purchase ID to view your order status. 
+                                The purchase ID is an eight character, alphanumeric code that was provided at the time you placed your order.
+                                It can also be found in the receipt email that you should have received shortly after submitting your order.
+                                If you are unable to find your purchase ID, visit <a href="orderHistory.html">order history</a>.
+                                Please <a href="support.html">contact us</a> if you need further assistance.
+                            </p>
+                            <p style="text-align: center">
+                                <input id="purchaseId" type="text" maxlength="8" placeholder="Purchase ID" onblur="$(this).removeClass('invalid')">
+                                <br>
+                                <button id="checkStatusButton" class="button special" onclick="checkStatus(true)">Check Status</button>
+                            </p>
+                            <div id="invalidPurchaseId">Invalid Purchase ID.</div>
+                        </div>
+                        <p id="fulfillmentFailed">
+                            An unexpected problem occurred while processing your order.
+                            <br>
+                            Please <a href="support.html">contact us</a> for support.
+                        </p>
+                        <div id="orderStatusWrapper">
+                            <p id="purchaseInfo">
+                                Purchased on <span id="purchasedOn"></span> by <span id="email"></span> for <span id="totalPrice"></span>
+                            </p>
+                            <table id="orderStatusTable">
+                                <thead>
+                                    <tr>
+                                        <th>Camera</th>
+                                        <th>Time Frame</th>
+                                        <th>Price</th>
+                                        <th>Video</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="tableBody">
+                                </tbody>
+                                <tfoot id="tableFooter"></tfoot>
+                            </table>
+                            <p id="processingMessage">
+                                Your order is still processing. This typically takes less than five minutes but may take longer depending on the
+                                number of videos purchased. <span id="autoCheckMessage">This page will automatically refresh until your order has finished processing.</span>
+                            </p>
+                            <p id="fulfilledMessage">
+                                Your order has finished processing. Press the download links above to save your videos.
+                                Should you have any trouble playing your videos with your device's built in
+                                media player, we recommend <a href="index-1.htm" target="_blank">VLC Player</a>, a free and robust media application.
+                                <br><br>
+                                <a href="support.html">Contact us</a> for support if you experience any issues with your order.
+                            </p>
+                            <p id="purgedMessage">
+                                Your order has expired. The videos are no longer available for download.
+                                <br>
+                                <a href="support.html">Contact us</a> if you need support.
+                            </p>
+                        </div>
+                        <div class="checkAnotherOrBrowseLinkWrapper">
+                            <a href="orderStatus.html" style="display:inline-block;">Check the status of a different order</a>
+                            <br>
+                            <a href="selectState.jsp.html" style="display:inline-block;margin-top:1em">Browse archive for more video</a>
+                        </div>
+                        <div class="browseLinkWrapper">
+                            <a href="selectState.jsp.html">Browse video archive</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <br><br><br>
+        <!-- Footer -->
+        <footer id="pageFooter">
+            &copy; Civil Forensics
+        </footer>
+    </body>
+</html>

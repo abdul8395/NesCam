@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>CF Browse Cameras</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Search for intersections and cameras on an interactive map.">
+        <link rel="shortcut icon" href="favicon/favicon.ico">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+        <link rel="manifest" href="site.webmanifest">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/transitive-1.css?tcaGen=2">
+        <link rel="stylesheet" href="css/magnific-popup.css?tcaGen=2">
+        <link rel="stylesheet" href="leaflet/leaflet.css?tcaGen=2">
+        <link rel="stylesheet" href="css/video-js.css?tcaGen=2">
+        <link rel="stylesheet" href="css/common.css?tcaGen=2">
+        <link rel="stylesheet" href="css/browseCameras.css?tcaGen=2">
+
+        <!-- JavaScript -->
+        <script src="js/jquery-3.5.1.min.js?tcaGen=2"></script>
+        <script src="jquery-ui/jquery-ui.min.js?tcaGen=2"></script>
+        <script src="js/skel.min.js?tcaGen=2"></script>
+        <script src="js/util.js?tcaGen=2"></script>
+        <script src="js/transitive.js?tcaGen=2"></script>
+        <script src="js/jquery.magnific-popup.min.js?tcaGen=2"></script>
+        <script src="leaflet/leaflet.js?tcaGen=2"></script>
+        <script src="js/video.min.js?tcaGen=2"></script>
+        <script src="js/js.cookie.js?tcaGen=2"></script>
+        <script src="js/common.js?tcaGen=2"></script>
+        <script src="js/cart.js?tcaGen=2"></script>
+        <script src="js/browseCameras.js?tcaGen=2"></script>
+
+        <!-- Google Analytics -->
+        <script async="" src="gtag/js.js?id=UA-196534283-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+            gtag('config', 'UA-196534283-1');
+        </script>
+    </head>
+    <body class="is-loading">
+
+        <!-- Header -->
+        <header id="header" class="revealed">
+            <div class="logo"><a href="index.htm"><img class="logoImage" src="images/logo.png" alt="Website Logo"></a></div>
+            <span class="shoppingCartWrapper">
+                 <a href="index.htm">Home</a>
+                <a href="claim.html">CLAIM REVIEW</a>
+                <a href="liability.html">LIABILITY FORENSICS</a>
+                <a href="cctv.html">CCTV FOOTAGE</a>
+                <a href="attorny.html">ATTORNEY REFERRAL</a>
+                <a href="support.html">Support & FAQ</a>
+                <a href="contact_t.html">Contact</a>
+                <img id="shoppingCart" src="images/cartDefault.png" alt="Shopping Cart" onclick="cartClicked()">
+            </span>
+        </header>
+
+        <!-- One -->
+        <section id="one" class="wrapper style2" style="padding:3rem 0 0 0; background-color:white">
+            <div class="inner">
+                <div class="box">
+                    <div class="content" style="padding: 1em">
+                        <header class="align-center">
+                            <h2 id="selectCameraHeader">Select Camera</h2>
+                            <div id="selectWrapper">
+                                <select name="regionSelect" id="regionSelect" class="round" onchange="regionSelected()"></select>
+                                <select name="locationSelect" id="locationSelect" class="round" onchange="locationSelected(false, function(){})"></select>
+                            </div>  
+                        </header>
+                        <div id="camerasQueryWrapper">
+                            <input type="text" id="camerasQueryText" placeholder="Search (Address or GPS)" onkeyup="queryKeyUp(event)" autocomplete="off">
+                            <img id="mapSearchImage" src="images/mapSearch.png" onclick="performGeocodeQuery()">
+                            <span id="mapSearchVerticalLine"></span>
+                            <img id="mapClearImage" src="images/clearMapSearch.png" onclick="clearSearchClicked()">
+                        </div>
+                        <div id="geocodePopup"></div>
+                        <div id="camerasMap">
+                            <img id="share" src="images/share.png" alt="Share" onclick="share()">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Instructions dialog -->
+        <div id="instructionsDialog" class="instructionsDialog mfp-hide">
+            Welcome to the camera selection page.
+            Use the interactive map to find cameras.
+            Cameras are represented by blue markers.
+            Press a blue marker to select the camera.
+            Address search results are represented by orange markers.
+            Orange markers do not represent cameras.
+            <br><br>
+            <img class="instructionsImage" src="images/activeMarker.png" alt="Camera marker"> - location of a camera
+            <br>
+            <img class="instructionsImage" src="images/queryMarker.png" alt="Camera marker"> - location of an address search
+            <br>
+            <img class="instructionsImage" src="images/share.png" alt="Camera marker"> - share the map with a colleague 
+            <div class="dialogButtonWrapper">
+                <button class="button special dialogButton" onclick="closeDialog()">OK</button>
+            </div>
+        </div>
+
+        <!-- Share dialog -->
+        <div id="shareDialog" class="shareDialog mfp-hide">
+            <div style="margin-bottom:.5em">Copy this URL to share the map.</div>
+            <div id="shareUrl"></div>
+            <div class="dialogButtonWrapper">
+                <button class="button special dialogButton" onclick="toClipboard('shareUrl');closeDialog()">Copy URL</button>
+                <button class="button special dialogButton" onclick="closeDialog()">Cancel</button>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer id="pageFooter">
+            &copy; Civil Forensics
+        </footer>
+    </body>
+</html>

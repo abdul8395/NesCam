@@ -1,0 +1,468 @@
+Uri: https://trafficcamarchive.com/
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\index.htm
+Content Type: text/html
+
+Uri: https://trafficcamarchive.com/favicon/favicon.ico
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\favicon\favicon.ico
+Content Type: image/x-icon
+
+Uri: https://trafficcamarchive.com/favicon/favicon-32x32.png
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\favicon\favicon-32x32.png
+Content Type: image/png
+
+Uri: https://trafficcamarchive.com/favicon/favicon-16x16.png
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\favicon\favicon-16x16.png
+Content Type: image/png
+
+Uri: https://trafficcamarchive.com/favicon/apple-touch-icon.png
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\favicon\apple-touch-icon.png
+Content Type: image/png
+
+Uri: https://trafficcamarchive.com/site.webmanifest
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\site.webmanifest
+Content Type: 
+
+Uri: https://trafficcamarchive.com/css/transitive.css?tcaGen=2s
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\css\transitive.css
+Content Type: text/css
+
+Uri: https://trafficcamarchive.com/css/common.css?tcaGen=2
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\css\common.css
+Content Type: text/css
+
+Uri: https://trafficcamarchive.com/css/index.css?tcaGen=2
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\css\index.css
+Content Type: text/css
+
+Uri: https://trafficcamarchive.com/selectState.jsp
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\selectState.jsp.html
+Content Type: text/html
+
+Uri: https://trafficcamarchive.com/orderStatus.html
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\orderStatus.html
+Content Type: text/html
+
+Uri: https://trafficcamarchive.com/orderHistory.html
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\orderHistory.html
+Content Type: text/html
+
+Uri: https://trafficcamarchive.com/support.html
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\support.html
+Content Type: text/html
+
+Uri: https://trafficcamarchive.com/contact.html
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\contact.html
+Content Type: text/html
+
+Uri: https://trafficcamarchive.com/selectLocation.jsp?rn=Alabama
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\selectLocation.jsp.html
+Content Type: text/html
+
+Uri: https://trafficcamarchive.com/browseCameras.html?rn=Alabama&li=AL_BI
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\browseCameras.html
+Content Type: text/html
+
+Uri: https://trafficcamarchive.com/browseCameras.html?rn=Alabama&li=AL_TU
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\browseCameras-1.html
+Content Type: text/html
+
+Uri: https://trafficcamarchive.com/browseCameras.html?rn=Alabama&li=AL_MO
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\browseCameras-2.html
+Content Type: text/html
+
+Uri: https://trafficcamarchive.com/browseCameras.html?rn=Alabama&li=AL_MONT
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\browseCameras-3.html
+Content Type: text/html
+
+Uri: https://trafficcamarchive.com/browseCameras.html?rn=Alabama&li=AL_DO
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\browseCameras-4.html
+Content Type: text/html
+
+Uri: https://trafficcamarchive.com/browseCameras.html?rn=Alabama&li=AL_CT
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\browseCameras-5.html
+Content Type: text/html
+
+Uri: https://trafficcamarchive.com/browseCameras.html?rn=Alabama&li=AL_FL
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\browseCameras-6.html
+Content Type: text/html
+
+Uri: https://trafficcamarchive.com/browseCameras.html?rn=Alabama&li=AL_DE
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\browseCameras-7.html
+Content Type: text/html
+
+Uri: https://trafficcamarchive.com/browseCameras.html?rn=Alabama&li=AL_TR
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\browseCameras-8.html
+Content Type: text/html
+
+Uri: https://trafficcamarchive.com/browseCameras.html?rn=Alabama&li=AL_JA
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\browseCameras-9.html
+Content Type: text/html
+
+Uri: https://trafficcamarchive.com/browseCameras.html?rn=Alabama&li=AL_HA
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\browseCameras-10.html
+Content Type: text/html
+
+Uri: https://trafficcamarchive.com/browseCameras.html?rn=Alabama&li=AL_VA
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\browseCameras-11.html
+Content Type: text/html
+
+Uri: https://trafficcamarchive.com/browseCameras.html?rn=Alabama&li=AL_GR
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\browseCameras-12.html
+Content Type: text/html
+
+Uri: https://trafficcamarchive.com/browseCameras.html?rn=Alabama&li=AL_SU
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\browseCameras-13.html
+Content Type: text/html
+
+Uri: https://trafficcamarchive.com/browseCameras.html?rn=Alabama&li=AL_PL
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\browseCameras-14.html
+Content Type: text/html
+
+Uri: https://trafficcamarchive.com/browseCameras.html?rn=Alabama&li=AL_AT
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\browseCameras-15.html
+Content Type: text/html
+
+Uri: https://trafficcamarchive.com/browseCameras.html?rn=Alabama&li=AL_GO
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\browseCameras-16.html
+Content Type: text/html
+
+Uri: https://trafficcamarchive.com/browseCameras.html?rn=Alabama&li=AL_WO
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\browseCameras-17.html
+Content Type: text/html
+
+Uri: https://trafficcamarchive.com/browseCameras.html?rn=Alabama&li=AL_LI
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\browseCameras-18.html
+Content Type: text/html
+
+Uri: https://trafficcamarchive.com/browseCameras.html?rn=Alabama&li=AL_MOUND
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\browseCameras-19.html
+Content Type: text/html
+
+Uri: https://trafficcamarchive.com/selectLocation.jsp?rn=Maryland
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\selectLocation.jsp-1.html
+Content Type: text/html
+
+Uri: https://trafficcamarchive.com/browseCameras.html?rn=Maryland&li=MD_BALT
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\browseCameras-20.html
+Content Type: text/html
+
+Uri: https://trafficcamarchive.com/browseCameras.html?rn=Maryland&li=MD_ANNA
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\browseCameras-21.html
+Content Type: text/html
+
+Uri: https://trafficcamarchive.com/browseCameras.html?rn=Maryland&li=MD_EAST
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\browseCameras-22.html
+Content Type: text/html
+
+Uri: https://trafficcamarchive.com/browseCameras.html?rn=Maryland&li=MD_WEST
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\browseCameras-23.html
+Content Type: text/html
+
+Uri: https://trafficcamarchive.com/browseCameras.html?rn=Maryland&li=MD_SOUTH
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\browseCameras-24.html
+Content Type: text/html
+
+Uri: https://trafficcamarchive.com/browseCameras.html?rn=Maryland&li=MD_DC
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\browseCameras-25.html
+Content Type: text/html
+
+Uri: https://trafficcamarchive.com/selectLocation.jsp?rn=Nevada
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\selectLocation.jsp-2.html
+Content Type: text/html
+
+Uri: https://trafficcamarchive.com/browseCameras.html?rn=Nevada&li=NV_LV
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\browseCameras-26.html
+Content Type: text/html
+
+Uri: https://trafficcamarchive.com/browseCameras.html?rn=Nevada&li=NV_RN
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\browseCameras-27.html
+Content Type: text/html
+
+Uri: https://trafficcamarchive.com/browseCameras.html?rn=Nevada&li=NV_CR
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\browseCameras-28.html
+Content Type: text/html
+
+Uri: https://trafficcamarchive.com/browseCameras.html?rn=Nevada&li=NV_OTHER
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\browseCameras-29.html
+Content Type: text/html
+
+Uri: https://trafficcamarchive.com/js/jquery-3.5.1.min.js?tcaGen=2
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\js\jquery-3.5.1.min.js
+Content Type: application/javascript
+
+Uri: https://trafficcamarchive.com/js/jquery.scrolly.min.js?tcaGen=2
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\js\jquery.scrolly.min.js
+Content Type: application/javascript
+
+Uri: https://trafficcamarchive.com/js/jquery.scrollex.min.js?tcaGen=2
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\js\jquery.scrollex.min.js
+Content Type: application/javascript
+
+Uri: https://trafficcamarchive.com/js/skel.min.js?tcaGen=2
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\js\skel.min.js
+Content Type: application/javascript
+
+Uri: https://trafficcamarchive.com/js/util.js?tcaGen=2
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\js\util.js
+Content Type: application/javascript
+
+Uri: https://trafficcamarchive.com/js/transitive.js?tcaGen=2
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\js\transitive.js
+Content Type: application/javascript
+
+Uri: https://trafficcamarchive.com/js/js.cookie.js?tcaGen=2
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\js\js.cookie.js
+Content Type: application/javascript
+
+Uri: https://trafficcamarchive.com/js/common.js?tcaGen=2
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\js\common.js
+Content Type: application/javascript
+
+Uri: https://trafficcamarchive.com/js/cart.js?tcaGen=2
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\js\cart.js
+Content Type: application/javascript
+
+Uri: https://trafficcamarchive.com/js/index.js?tcaGen=2
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\js\index.js
+Content Type: application/javascript
+
+Uri: https://www.googletagmanager.com/gtag/js?id=UA-196534283-1
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\gtag\js.js
+Content Type: application/javascript
+
+Uri: https://trafficcamarchive.com/images/logo.png
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\images\logo.png
+Content Type: image/png
+
+Uri: https://trafficcamarchive.com/images/cartDefault.png
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\images\cartDefault.png
+Content Type: image/png
+
+Uri: https://trafficcamarchive.com/videos/bannerVideo.mp4
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\videos\bannerVideo.mp4
+Content Type: video/mp4
+
+Uri: https://trafficcamarchive.com/videos/bannerVideo.webm
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\videos\bannerVideo.webm
+Content Type: video/webm
+
+Uri: https://trafficcamarchive.com/images/pic01.jpg?tcaGen=2
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\images\pic01.jpg
+Content Type: image/jpeg
+
+Uri: https://trafficcamarchive.com/images/pic02.jpg
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\images\pic02.jpg
+Content Type: image/jpeg
+
+Uri: https://trafficcamarchive.com/images/pic03.jpg
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\images\pic03.jpg
+Content Type: image/jpeg
+
+Uri: https://trafficcamarchive.com/images/coverage.jpg
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\images\coverage.jpg
+Content Type: image/jpeg
+
+Uri: https://trafficcamarchive.com/images/mission.jpg
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\images\mission.jpg
+Content Type: image/jpeg
+
+Uri: https://trafficcamarchive.com/css/font-awesome.min.css
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\css\font-awesome.min.css
+Content Type: text/css
+
+Uri: https://trafficcamarchive.com/css/googlefonts.css
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\css\googlefonts.css
+Content Type: text/css
+
+Uri: https://trafficcamarchive.com/images/bg.jpg
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\images\bg.jpg
+Content Type: image/jpeg
+
+Uri: https://trafficcamarchive.com/images/banner.jpg
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\images\banner.jpg
+Content Type: image/jpeg
+
+Uri: https://trafficcamarchive.com/css/transitive.css?tcaGen=2
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\css\transitive-1.css
+Content Type: text/css
+
+Uri: https://trafficcamarchive.com/css/magnific-popup.css?tcaGen=2
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\css\magnific-popup.css
+Content Type: text/css
+
+Uri: https://trafficcamarchive.com/css/selectState.css?tcaGen=2
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\css\selectState.css
+Content Type: text/css
+
+Uri: https://trafficcamarchive.com/jquery-ui/jquery-ui.min.js?tcaGen=2
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\jquery-ui\jquery-ui.min.js
+Content Type: application/javascript
+
+Uri: https://trafficcamarchive.com/js/jquery.magnific-popup.min.js?tcaGen=2
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\js\jquery.magnific-popup.min.js
+Content Type: application/javascript
+
+Uri: https://trafficcamarchive.com/js/selectState.js?tcaGen=2
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\js\selectState.js
+Content Type: application/javascript
+
+Uri: https://trafficcamarchive.com/images/enabledRegion.png
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\images\enabledRegion.png
+Content Type: image/png
+
+Uri: https://trafficcamarchive.com/images/disabledRegion.png
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\images\disabledRegion.png
+Content Type: image/png
+
+Uri: https://trafficcamarchive.com/css/orderStatus.css?tcaGen=2
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\css\orderStatus.css
+Content Type: text/css
+
+Uri: https://www.videolan.org/
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\index-1.htm
+Content Type: text/html
+
+Uri: https://trafficcamarchive.com/js/orderStatus.js?tcaGen=2
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\js\orderStatus.js
+Content Type: application/javascript
+
+Uri: https://trafficcamarchive.com/css/orderHistory.css?tcaGen=2
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\css\orderHistory.css
+Content Type: text/css
+
+Uri: https://trafficcamarchive.com/js/orderHistory.js?tcaGen=2
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\js\orderHistory.js
+Content Type: application/javascript
+
+Uri: https://trafficcamarchive.com/css/support.css?tcaGen=2
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\css\support.css
+Content Type: text/css
+
+Uri: https://stripe.com/
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\index-2.htm
+Content Type: text/html
+
+Uri: https://www.openstreetmap.org/copyright
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\copyright.html
+Content Type: text/html
+
+Uri: https://unsplash.com/@mbphotography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\@mbphotography.html
+Content Type: text/html
+
+Uri: https://trafficcamarchive.com/js/skel.min.js?ver=2
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\js\skel.min-1.js
+Content Type: application/javascript
+
+Uri: https://trafficcamarchive.com/js/support.js?tcaGen=2
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\js\support.js
+Content Type: application/javascript
+
+Uri: https://trafficcamarchive.com/css/contact.css?tcaGen=2
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\css\contact.css
+Content Type: text/css
+
+Uri: https://trafficcamarchive.com/js/contact.js?tcaGen=2
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\js\contact.js
+Content Type: application/javascript
+
+Uri: https://trafficcamarchive.com/css/selectLocation.css?tcaGen=2
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\css\selectLocation.css
+Content Type: text/css
+
+Uri: https://trafficcamarchive.com/js/selectLocation.js?tcaGen=2
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\js\selectLocation.js
+Content Type: application/javascript
+
+Uri: https://trafficcamarchive.com/leaflet/leaflet.css?tcaGen=2
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\leaflet\leaflet.css
+Content Type: text/css
+
+Uri: https://trafficcamarchive.com/css/video-js.css?tcaGen=2
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\css\video-js.css
+Content Type: text/css
+
+Uri: https://trafficcamarchive.com/css/browseCameras.css?tcaGen=2
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\css\browseCameras.css
+Content Type: text/css
+
+Uri: https://trafficcamarchive.com/leaflet/leaflet.js?tcaGen=2
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\leaflet\leaflet.js
+Content Type: application/javascript
+
+Uri: https://trafficcamarchive.com/js/video.min.js?tcaGen=2
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\js\video.min.js
+Content Type: application/javascript
+
+Uri: https://trafficcamarchive.com/js/browseCameras.js?tcaGen=2
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\js\browseCameras.js
+Content Type: application/javascript
+
+Uri: https://trafficcamarchive.com/images/mapSearch.png
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\images\mapSearch.png
+Content Type: image/png
+
+Uri: https://trafficcamarchive.com/images/clearMapSearch.png
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\images\clearMapSearch.png
+Content Type: image/png
+
+Uri: https://trafficcamarchive.com/images/share.png
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\images\share.png
+Content Type: image/png
+
+Uri: https://trafficcamarchive.com/images/activeMarker.png
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\images\activeMarker.png
+Content Type: image/png
+
+Uri: https://trafficcamarchive.com/images/queryMarker.png
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\images\queryMarker.png
+Content Type: image/png
+
+Uri: https://trafficcamarchive.com/fonts/fontawesome-webfont.eot?v=4.6.3
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\fonts\fontawesome-webfont.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://trafficcamarchive.com/fonts/fontawesome-webfont.eot?
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\fonts\fontawesome-webfont-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://trafficcamarchive.com/fonts/fontawesome-webfont.woff2?v=4.6.3
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\fonts\fontawesome-webfont.woff2
+Content Type: font/woff2
+
+Uri: https://trafficcamarchive.com/fonts/taviraj-latin-italic-300.woff2
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\fonts\taviraj-latin-italic-300.woff2
+Content Type: font/woff2
+
+Uri: https://trafficcamarchive.com/fonts/taviraj-latin-italic-400.woff2
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\fonts\taviraj-latin-italic-400.woff2
+Content Type: font/woff2
+
+Uri: https://trafficcamarchive.com/fonts/taviraj-latin-italic-700.woff2
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\fonts\taviraj-latin-italic-700.woff2
+Content Type: font/woff2
+
+Uri: https://trafficcamarchive.com/fonts/taviraj-latin-normal-300.woff2
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\fonts\taviraj-latin-normal-300.woff2
+Content Type: font/woff2
+
+Uri: https://trafficcamarchive.com/fonts/taviraj-latin-normal-400.woff2
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\fonts\taviraj-latin-normal-400.woff2
+Content Type: font/woff2
+
+Uri: https://trafficcamarchive.com/fonts/taviraj-latin-normal-700.woff2
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\fonts\taviraj-latin-normal-700.woff2
+Content Type: font/woff2
+
+Uri: https://trafficcamarchive.com/leaflet/images/layers.png
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\leaflet\images\layers.png
+Content Type: image/png
+
+Uri: https://trafficcamarchive.com/leaflet/images/layers-2x.png
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\leaflet\images\layers-2x.png
+Content Type: image/png
+
+Uri: https://trafficcamarchive.com/leaflet/images/marker-icon.png
+File Name: C:\Downloaded Web Sites\trafficcamarchive.com\leaflet\images\marker-icon.png
+Content Type: image/png
+

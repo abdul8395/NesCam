@@ -1,0 +1,51 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    
+    <!-- links the js files -->
+<!--     <link rel="stylesheet" type="text/css" href="style.css"/> -->
+    
+  </head>
+  <body>
+    <input type="text" id="emailSubject" placeholder="Subject"/>
+    <input type="text" id="emailBody" placeholder="Body"/>
+    <input type="button" onclick="send()" value="Send"/>
+  </body>
+  
+  <!-- links the js files -->
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+<script >
+  	
+	let subject;
+	let body;
+
+	function setValues() {
+
+		// sets the values of the subject and body
+		subject = document.getElementById("emailSubject").value;
+	  body = document.getElementById("emailBody").value;
+	  
+	}
+
+	function send() {
+		setValues();
+	  // sends the email
+	  Email.send({
+	    SecureToken : "ab1b0e23-fe98-420c-b05a-76b854532f37",
+	    // To : 'Request@civilforensics.com',
+	    To : 'ghmalik9@gmail.com',
+	    From : "abdulg8395@gmail.com",
+	    Subject : "This is the subject for test",
+	    Body : "And this is the body for email test"
+		}).then(
+		  message => alert(Email was sent successfully please check spam too...)
+		);
+	}
+
+</script>
+  
+</html>
